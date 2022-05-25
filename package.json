@@ -19,7 +19,24 @@
 				"command": "helloworld.helloWorld",
 				"title": "Hello World"
 			}
-		]
+		],
+		"viewsContainers": {
+			"activitybar": [
+				{
+					"id": "treeView",
+					"title": "muyo-reader",
+					"icon": "static/images/icon.svg"
+				}
+			]
+		},
+		"views": {
+			"treeView": [
+				{
+					"id": "muyo-reader-menu",
+					"name": "目录"
+				}
+			]
+		}
 	},
 	"scripts": {
 		"build": "vsce package",
